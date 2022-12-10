@@ -13,8 +13,8 @@ struct SearchView: View {
     @State private var selection : Int? = nil
     @State private var cityName : String = ""
     @State private var countryName : String = ""
-//    @State private var petType : String = ""
-    @State private var searchKeys : [String] = ["",""]
+    @State private var petType : PetType = PetType.dog
+    @State private var searchKeys : [String] = ["","",""]
     
     enum PetType: String, CaseIterable, Identifiable {
         case dog, cat
@@ -26,10 +26,10 @@ struct SearchView: View {
         
         VStack(alignment: .center,spacing: 20) {
             Spacer()
-//            Picker("Type", selection: $petType) {
-//                Text("Dog").tag(PetType.dog)
-//                Text("Cat").tag(PetType.cat)
-//            }
+            Picker("Type", selection: $petType) {
+                Text("Dog").tag(PetType.dog)
+                Text("Cat").tag(PetType.cat)
+            }
             TextField("City Name", text: self.$cityName)
                 .disableAutocorrection(true)
                 .font(.title2)
@@ -63,7 +63,7 @@ struct SearchView: View {
     private func search() {
         searchKeys[0] = cityName
         searchKeys[1] = countryName
-//        searchKeys[2] = petType
+        searchKeys[2] = petType.rawValue
         self.selection = 1
         
     }

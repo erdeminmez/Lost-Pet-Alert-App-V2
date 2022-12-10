@@ -13,15 +13,18 @@ import FirebaseFirestore
 struct Lost_Pet_Alert_App_V2App: App {
     
     let fireDBHelper : FireDBHelper
+    let locationHelper : LocationHelper
     
     init() {
         FirebaseApp.configure()
         fireDBHelper = FireDBHelper(database: Firestore.firestore())
+        locationHelper = LocationHelper()
     }
     
     var body: some Scene {
         WindowGroup {
             HomeView().environmentObject(fireDBHelper)
+                .environmentObject(locationHelper)
         }
     }
 }

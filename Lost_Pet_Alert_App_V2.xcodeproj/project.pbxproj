@@ -19,6 +19,8 @@
 		FCE1E6C42944432B00B7EAED /* DisappearanceAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6C32944432B00B7EAED /* DisappearanceAlertView.swift */; };
 		FCE1E6C62944433500B7EAED /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6C52944433500B7EAED /* SearchView.swift */; };
 		FCE1E6C82944433B00B7EAED /* DisappearanceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6C72944433B00B7EAED /* DisappearanceListView.swift */; };
+		FCE1E6CA29445CBA00B7EAED /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6C929445CBA00B7EAED /* LocationHelper.swift */; };
+		FCE1E6CC29445ED600B7EAED /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6CB29445ED600B7EAED /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		FCE1E6C32944432B00B7EAED /* DisappearanceAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisappearanceAlertView.swift; sourceTree = "<group>"; };
 		FCE1E6C52944433500B7EAED /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		FCE1E6C72944433B00B7EAED /* DisappearanceListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisappearanceListView.swift; sourceTree = "<group>"; };
+		FCE1E6C929445CBA00B7EAED /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		FCE1E6CB29445ED600B7EAED /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 				FCE1E6C32944432B00B7EAED /* DisappearanceAlertView.swift */,
 				FCE1E6C52944433500B7EAED /* SearchView.swift */,
 				FCE1E6C72944433B00B7EAED /* DisappearanceListView.swift */,
+				FCE1E6CB29445ED600B7EAED /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				FCE1E6BF294442F900B7EAED /* FireDBHelper.swift */,
+				FCE1E6C929445CBA00B7EAED /* LocationHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 				FCE1E6C62944433500B7EAED /* SearchView.swift in Sources */,
 				FCE1E6C22944431F00B7EAED /* HomeView.swift in Sources */,
 				FCE1E6C82944433B00B7EAED /* DisappearanceListView.swift in Sources */,
+				FCE1E6CA29445CBA00B7EAED /* LocationHelper.swift in Sources */,
+				FCE1E6CC29445ED600B7EAED /* MapView.swift in Sources */,
 				FCE1E6C42944432B00B7EAED /* DisappearanceAlertView.swift in Sources */,
 				FCE1E6AB29443F7900B7EAED /* Lost_Pet_Alert_App_V2App.swift in Sources */,
 			);
