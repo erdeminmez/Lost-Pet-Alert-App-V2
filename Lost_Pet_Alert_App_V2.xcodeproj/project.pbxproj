@@ -21,7 +21,37 @@
 		FCE1E6C82944433B00B7EAED /* DisappearanceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6C72944433B00B7EAED /* DisappearanceListView.swift */; };
 		FCE1E6CA29445CBA00B7EAED /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6C929445CBA00B7EAED /* LocationHelper.swift */; };
 		FCE1E6CC29445ED600B7EAED /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6CB29445ED600B7EAED /* MapView.swift */; };
+		FCE1E6D3294468EB00B7EAED /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE1E6D2294468EA00B7EAED /* WidgetKit.framework */; };
+		FCE1E6D5294468EB00B7EAED /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE1E6D4294468EB00B7EAED /* SwiftUI.framework */; };
+		FCE1E6D8294468EB00B7EAED /* LostPetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6D7294468EB00B7EAED /* LostPetWidget.swift */; };
+		FCE1E6DA294468ED00B7EAED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE1E6D9294468ED00B7EAED /* Assets.xcassets */; };
+		FCE1E6DE294468EE00B7EAED /* LostPetWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FCE1E6D1294468EA00B7EAED /* LostPetWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FCE1E6E3294469D000B7EAED /* FireDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6BF294442F900B7EAED /* FireDBHelper.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCE1E6DC294468EE00B7EAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE1E69F29443F7900B7EAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE1E6D0294468EA00B7EAED;
+			remoteInfo = LostPetWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCE1E6E2294468EE00B7EAED /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FCE1E6DE294468EE00B7EAED /* LostPetWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7DF850F4A258FEB912465887 /* Pods_Lost_Pet_Alert_App_V2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lost_Pet_Alert_App_V2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +71,12 @@
 		FCE1E6C72944433B00B7EAED /* DisappearanceListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisappearanceListView.swift; sourceTree = "<group>"; };
 		FCE1E6C929445CBA00B7EAED /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
 		FCE1E6CB29445ED600B7EAED /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FCE1E6D1294468EA00B7EAED /* LostPetWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LostPetWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE1E6D2294468EA00B7EAED /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		FCE1E6D4294468EB00B7EAED /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FCE1E6D7294468EB00B7EAED /* LostPetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostPetWidget.swift; sourceTree = "<group>"; };
+		FCE1E6D9294468ED00B7EAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCE1E6DB294468ED00B7EAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +88,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCE1E6CE294468EA00B7EAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1E6D5294468EB00B7EAED /* SwiftUI.framework in Frameworks */,
+				FCE1E6D3294468EB00B7EAED /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				7DF850F4A258FEB912465887 /* Pods_Lost_Pet_Alert_App_V2.framework */,
+				FCE1E6D2294468EA00B7EAED /* WidgetKit.framework */,
+				FCE1E6D4294468EB00B7EAED /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				FCE1E6A929443F7900B7EAED /* Lost_Pet_Alert_App_V2 */,
+				FCE1E6D6294468EB00B7EAED /* LostPetWidget */,
 				FCE1E6A829443F7900B7EAED /* Products */,
 				E61B6C1C759E517D7558258D /* Pods */,
 				94AC63FFA33409487E71A235 /* Frameworks */,
@@ -86,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				FCE1E6A729443F7900B7EAED /* Lost_Pet_Alert_App_V2.app */,
+				FCE1E6D1294468EA00B7EAED /* LostPetWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,6 +191,16 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		FCE1E6D6294468EB00B7EAED /* LostPetWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1E6D7294468EB00B7EAED /* LostPetWidget.swift */,
+				FCE1E6D9294468ED00B7EAED /* Assets.xcassets */,
+				FCE1E6DB294468ED00B7EAED /* Info.plist */,
+			);
+			path = LostPetWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,15 +213,34 @@
 				FCE1E6A429443F7900B7EAED /* Frameworks */,
 				FCE1E6A529443F7900B7EAED /* Resources */,
 				9E7240C1C7381753FFAE87E9 /* [CP] Embed Pods Frameworks */,
+				FCE1E6E2294468EE00B7EAED /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FCE1E6DD294468EE00B7EAED /* PBXTargetDependency */,
 			);
 			name = Lost_Pet_Alert_App_V2;
 			productName = Lost_Pet_Alert_App_V2;
 			productReference = FCE1E6A729443F7900B7EAED /* Lost_Pet_Alert_App_V2.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FCE1E6D0294468EA00B7EAED /* LostPetWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE1E6DF294468EE00B7EAED /* Build configuration list for PBXNativeTarget "LostPetWidgetExtension" */;
+			buildPhases = (
+				FCE1E6CD294468EA00B7EAED /* Sources */,
+				FCE1E6CE294468EA00B7EAED /* Frameworks */,
+				FCE1E6CF294468EA00B7EAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LostPetWidgetExtension;
+			productName = LostPetWidgetExtension;
+			productReference = FCE1E6D1294468EA00B7EAED /* LostPetWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -175,6 +253,9 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					FCE1E6A629443F7900B7EAED = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FCE1E6D0294468EA00B7EAED = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
@@ -193,6 +274,7 @@
 			projectRoot = "";
 			targets = (
 				FCE1E6A629443F7900B7EAED /* Lost_Pet_Alert_App_V2 */,
+				FCE1E6D0294468EA00B7EAED /* LostPetWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +287,14 @@
 				FCE1E6B229443F7B00B7EAED /* Preview Assets.xcassets in Resources */,
 				FCE1E6AF29443F7B00B7EAED /* Assets.xcassets in Resources */,
 				FCE1E6B9294440DD00B7EAED /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1E6CF294468EA00B7EAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1E6DA294468ED00B7EAED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +360,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCE1E6CD294468EA00B7EAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1E6D8294468EB00B7EAED /* LostPetWidget.swift in Sources */,
+				FCE1E6E3294469D000B7EAED /* FireDBHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCE1E6DD294468EE00B7EAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE1E6D0294468EA00B7EAED /* LostPetWidgetExtension */;
+			targetProxy = FCE1E6DC294468EE00B7EAED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FCE1E6B329443F7B00B7EAED /* Debug */ = {
@@ -391,6 +498,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B51B2729EBFCCD5E9912A3B3 /* Pods-Lost_Pet_Alert_App_V2.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -421,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A3A8379BEC3CF26DA27ADEBB /* Pods-Lost_Pet_Alert_App_V2.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +556,60 @@
 			};
 			name = Release;
 		};
+		FCE1E6E0294468EE00B7EAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ADQD396KCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LostPetWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LostPetWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ei.Lost-Pet-Alert-App-V2.LostPetWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCE1E6E1294468EE00B7EAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ADQD396KCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LostPetWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LostPetWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ei.Lost-Pet-Alert-App-V2.LostPetWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -464,6 +627,15 @@
 			buildConfigurations = (
 				FCE1E6B629443F7B00B7EAED /* Debug */,
 				FCE1E6B729443F7B00B7EAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE1E6DF294468EE00B7EAED /* Build configuration list for PBXNativeTarget "LostPetWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE1E6E0294468EE00B7EAED /* Debug */,
+				FCE1E6E1294468EE00B7EAED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
