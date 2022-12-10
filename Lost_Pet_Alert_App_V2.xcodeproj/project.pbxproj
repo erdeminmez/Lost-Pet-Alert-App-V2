@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A88D0AA17EE57AB969FF428 /* Pods_Lost_Pet_Alert_App_V2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF850F4A258FEB912465887 /* Pods_Lost_Pet_Alert_App_V2.framework */; };
 		FCE1E6AB29443F7900B7EAED /* Lost_Pet_Alert_App_V2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6AA29443F7900B7EAED /* Lost_Pet_Alert_App_V2App.swift */; };
 		FCE1E6AD29443F7900B7EAED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6AC29443F7900B7EAED /* ContentView.swift */; };
 		FCE1E6AF29443F7B00B7EAED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE1E6AE29443F7B00B7EAED /* Assets.xcassets */; };
 		FCE1E6B229443F7B00B7EAED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE1E6B129443F7B00B7EAED /* Preview Assets.xcassets */; };
+		FCE1E6B9294440DD00B7EAED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCE1E6B8294440DD00B7EAED /* GoogleService-Info.plist */; };
+		FCE1E6BE294442D500B7EAED /* DisappearanceAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6BD294442D500B7EAED /* DisappearanceAlert.swift */; };
+		FCE1E6C0294442F900B7EAED /* FireDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6BF294442F900B7EAED /* FireDBHelper.swift */; };
+		FCE1E6C22944431F00B7EAED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6C12944431F00B7EAED /* HomeView.swift */; };
+		FCE1E6C42944432B00B7EAED /* DisappearanceAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6C32944432B00B7EAED /* DisappearanceAlertView.swift */; };
+		FCE1E6C62944433500B7EAED /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6C52944433500B7EAED /* SearchView.swift */; };
+		FCE1E6C82944433B00B7EAED /* DisappearanceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1E6C72944433B00B7EAED /* DisappearanceListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7DF850F4A258FEB912465887 /* Pods_Lost_Pet_Alert_App_V2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lost_Pet_Alert_App_V2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A8379BEC3CF26DA27ADEBB /* Pods-Lost_Pet_Alert_App_V2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lost_Pet_Alert_App_V2.release.xcconfig"; path = "Target Support Files/Pods-Lost_Pet_Alert_App_V2/Pods-Lost_Pet_Alert_App_V2.release.xcconfig"; sourceTree = "<group>"; };
+		B51B2729EBFCCD5E9912A3B3 /* Pods-Lost_Pet_Alert_App_V2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lost_Pet_Alert_App_V2.debug.xcconfig"; path = "Target Support Files/Pods-Lost_Pet_Alert_App_V2/Pods-Lost_Pet_Alert_App_V2.debug.xcconfig"; sourceTree = "<group>"; };
 		FCE1E6A729443F7900B7EAED /* Lost_Pet_Alert_App_V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lost_Pet_Alert_App_V2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE1E6AA29443F7900B7EAED /* Lost_Pet_Alert_App_V2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lost_Pet_Alert_App_V2App.swift; sourceTree = "<group>"; };
 		FCE1E6AC29443F7900B7EAED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCE1E6AE29443F7B00B7EAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCE1E6B129443F7B00B7EAED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCE1E6B8294440DD00B7EAED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FCE1E6BD294442D500B7EAED /* DisappearanceAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisappearanceAlert.swift; sourceTree = "<group>"; };
+		FCE1E6BF294442F900B7EAED /* FireDBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireDBHelper.swift; sourceTree = "<group>"; };
+		FCE1E6C12944431F00B7EAED /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FCE1E6C32944432B00B7EAED /* DisappearanceAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisappearanceAlertView.swift; sourceTree = "<group>"; };
+		FCE1E6C52944433500B7EAED /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		FCE1E6C72944433B00B7EAED /* DisappearanceListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisappearanceListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A88D0AA17EE57AB969FF428 /* Pods_Lost_Pet_Alert_App_V2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94AC63FFA33409487E71A235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DF850F4A258FEB912465887 /* Pods_Lost_Pet_Alert_App_V2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E61B6C1C759E517D7558258D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B51B2729EBFCCD5E9912A3B3 /* Pods-Lost_Pet_Alert_App_V2.debug.xcconfig */,
+				A3A8379BEC3CF26DA27ADEBB /* Pods-Lost_Pet_Alert_App_V2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FCE1E69E29443F7900B7EAED = {
 			isa = PBXGroup;
 			children = (
 				FCE1E6A929443F7900B7EAED /* Lost_Pet_Alert_App_V2 */,
 				FCE1E6A829443F7900B7EAED /* Products */,
+				E61B6C1C759E517D7558258D /* Pods */,
+				94AC63FFA33409487E71A235 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +89,10 @@
 		FCE1E6A929443F7900B7EAED /* Lost_Pet_Alert_App_V2 */ = {
 			isa = PBXGroup;
 			children = (
+				FCE1E6BC294442A000B7EAED /* Helpers */,
+				FCE1E6BB2944429900B7EAED /* Views */,
+				FCE1E6BA2944429100B7EAED /* Models */,
+				FCE1E6B8294440DD00B7EAED /* GoogleService-Info.plist */,
 				FCE1E6AA29443F7900B7EAED /* Lost_Pet_Alert_App_V2App.swift */,
 				FCE1E6AC29443F7900B7EAED /* ContentView.swift */,
 				FCE1E6AE29443F7B00B7EAED /* Assets.xcassets */,
@@ -67,6 +109,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FCE1E6BA2944429100B7EAED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1E6BD294442D500B7EAED /* DisappearanceAlert.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FCE1E6BB2944429900B7EAED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1E6C12944431F00B7EAED /* HomeView.swift */,
+				FCE1E6C32944432B00B7EAED /* DisappearanceAlertView.swift */,
+				FCE1E6C52944433500B7EAED /* SearchView.swift */,
+				FCE1E6C72944433B00B7EAED /* DisappearanceListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCE1E6BC294442A000B7EAED /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1E6BF294442F900B7EAED /* FireDBHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCE1E6B529443F7B00B7EAED /* Build configuration list for PBXNativeTarget "Lost_Pet_Alert_App_V2" */;
 			buildPhases = (
+				D3C7758E2D5A070B60485576 /* [CP] Check Pods Manifest.lock */,
 				FCE1E6A329443F7900B7EAED /* Sources */,
 				FCE1E6A429443F7900B7EAED /* Frameworks */,
 				FCE1E6A529443F7900B7EAED /* Resources */,
+				9E7240C1C7381753FFAE87E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,17 +198,66 @@
 			files = (
 				FCE1E6B229443F7B00B7EAED /* Preview Assets.xcassets in Resources */,
 				FCE1E6AF29443F7B00B7EAED /* Assets.xcassets in Resources */,
+				FCE1E6B9294440DD00B7EAED /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E7240C1C7381753FFAE87E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lost_Pet_Alert_App_V2/Pods-Lost_Pet_Alert_App_V2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lost_Pet_Alert_App_V2/Pods-Lost_Pet_Alert_App_V2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lost_Pet_Alert_App_V2/Pods-Lost_Pet_Alert_App_V2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C7758E2D5A070B60485576 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lost_Pet_Alert_App_V2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FCE1E6A329443F7900B7EAED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE1E6BE294442D500B7EAED /* DisappearanceAlert.swift in Sources */,
+				FCE1E6C0294442F900B7EAED /* FireDBHelper.swift in Sources */,
 				FCE1E6AD29443F7900B7EAED /* ContentView.swift in Sources */,
+				FCE1E6C62944433500B7EAED /* SearchView.swift in Sources */,
+				FCE1E6C22944431F00B7EAED /* HomeView.swift in Sources */,
+				FCE1E6C82944433B00B7EAED /* DisappearanceListView.swift in Sources */,
+				FCE1E6C42944432B00B7EAED /* DisappearanceAlertView.swift in Sources */,
 				FCE1E6AB29443F7900B7EAED /* Lost_Pet_Alert_App_V2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +381,7 @@
 		};
 		FCE1E6B629443F7B00B7EAED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51B2729EBFCCD5E9912A3B3 /* Pods-Lost_Pet_Alert_App_V2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +411,7 @@
 		};
 		FCE1E6B729443F7B00B7EAED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A8379BEC3CF26DA27ADEBB /* Pods-Lost_Pet_Alert_App_V2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

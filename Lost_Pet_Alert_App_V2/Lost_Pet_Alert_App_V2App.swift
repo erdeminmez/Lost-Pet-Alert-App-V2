@@ -6,12 +6,22 @@
 //
 
 import SwiftUI
+import Firebase
+import FirebaseFirestore
 
 @main
 struct Lost_Pet_Alert_App_V2App: App {
+    
+    let fireDBHelper : FireDBHelper
+    
+    init() {
+        FirebaseApp.configure()
+        fireDBHelper = FireDBHelper(database: Firestore.firestore())
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView().environmentObject(fireDBHelper)
         }
     }
 }
