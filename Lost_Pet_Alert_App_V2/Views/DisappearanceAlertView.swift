@@ -39,8 +39,8 @@ struct DisappearanceAlertView: View {
     
     let dateRange: ClosedRange<Date> = {
         let calendar = Calendar.current
-        let startComponents = DateComponents(year: 2021, month: 1, day: 1)
-        let endComponents = DateComponents(year: 2021, month: 12, day: 31, hour: 23, minute: 59, second: 59)
+        let startComponents = DateComponents(year: 2022, month: 1, day: 1)
+        let endComponents = DateComponents(year: 2022, month: 12, day: 31, hour: 23, minute: 59, second: 59)
         return calendar.date(from:startComponents)!
             ...
             calendar.date(from:endComponents)!
@@ -110,11 +110,6 @@ struct DisappearanceAlertView: View {
             
             dismiss()
             
-//            self.refreshPage()
-//            showAlert = true
-//            alertTitle = "Success"
-//            alertMessage = "Your alert published!"
-            
         }
         
     }
@@ -174,24 +169,6 @@ struct DisappearanceAlertView: View {
             alertMessage = "You should enter a valid contact number!"
             validityKey = false
         }
-    }
-    
-    private func refreshPage() {
-        petType = PetType.dog
-        petKind = ""
-        petColor = ""
-        petDescription = ""
-        
-        dspTime = Date.now
-        dspStreet = ""
-        dspCity = ""
-        dspCountry = ""
-        
-        contactName = ""
-        contactNumber = ""
-        
-        
-        
     }
 }
 

@@ -35,6 +35,7 @@ class FireDBHelper : ObservableObject{
         do{
             
             try self.store.collection(COLLECTION_NAME).addDocument(from: newAlert)
+
             
         }catch let error as NSError{
             print(#function, "Error while inserting document on firestore \(error)")
@@ -45,7 +46,7 @@ class FireDBHelper : ObservableObject{
         
         self.store
             .collection(COLLECTION_NAME)
-            .order(by: "dspTime", descending: true)
+            .order(by: "dspTime", descending: false)
             .addSnapshotListener( { (querySnapshot, error)  in
                 
                 guard let snapshot = querySnapshot else{
@@ -66,7 +67,7 @@ class FireDBHelper : ObservableObject{
                         let matchedIndex = self.disappearanceAlertList.firstIndex(where: { ($0.id?.elementsEqual(docID))! })
                         
                         if docChange.type == .added{
-                            self.disappearanceAlertList.append(alert)
+                            self.disappearanceAlertList.insert(alert, at: 0)
                             print(#function, "Document ADDED : \(alert)")
                         }
                         
@@ -94,13 +95,5 @@ class FireDBHelper : ObservableObject{
             })
     }
     
-//    func filteredAlerts(petType: String, cityName: String, countryName: String) -> [DisappearanceAlert] {
-//        var filteredAlertList = [DisappearanceAlert]()
-//        for alert in self.disappearanceAlertList {
-//            if(alert.petType == petType && alert.dspCity == cityName && alert.dspCountry == countryName) {
-//                filteredAlertList.append(alert)
-//            }
-//        }
-//        return filteredAlertList
-//    }
+
 }

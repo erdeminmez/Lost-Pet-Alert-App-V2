@@ -22,7 +22,6 @@ struct MapView: View {
                 Text("No Location available")
             }
         }
-        //.navigationBarBackButtonHidden(true)
         .onAppear(){
             let address = "\(self.fireDBHelper.disappearanceAlertList[selectedAlertIndex].dspStreet), \(self.fireDBHelper.disappearanceAlertList[selectedAlertIndex].dspCity), \(self.fireDBHelper.disappearanceAlertList[selectedAlertIndex].dspCountry)"
             

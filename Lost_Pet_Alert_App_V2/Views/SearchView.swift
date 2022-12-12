@@ -30,6 +30,13 @@ struct SearchView: View {
                 Text("Dog").tag(PetType.dog)
                 Text("Cat").tag(PetType.cat)
             }
+            .font(.title2)
+            .padding(10)
+            .overlay(
+                RoundedRectangle(cornerRadius: 50)
+                    .stroke(Color.green, lineWidth: 2)
+            )
+            
             TextField("City Name", text: self.$cityName)
                 .disableAutocorrection(true)
                 .font(.title2)

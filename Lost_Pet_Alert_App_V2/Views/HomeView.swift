@@ -20,6 +20,12 @@ struct HomeView: View {
                 
                 NavigationLink(destination: SearchView(), tag: 2, selection: self.$selection){}
                 
+                Image("logo")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 300, height: 200)
+                    .cornerRadius(30)
+                
                 Button("Disappearance Alert", action: alertDisappearance)
                     .font(.headline.bold())
                     .foregroundColor(.white)
@@ -36,16 +42,17 @@ struct HomeView: View {
                     .background(Color.green)
                     .cornerRadius(10)
                     
+                Spacer()
             }//VStack ends
             .padding()
             .navigationTitle("Lost Pet App")
             .navigationBarTitleDisplayMode(.inline)
         }//NavigationView ends
-        //.navigationViewStyle(StackNavigationViewStyle())
         .onAppear(){
             //get all alerts from DB
             self.fireDBHelper.getAllAlerts()
         }
+        
     }//body ends
     
     
